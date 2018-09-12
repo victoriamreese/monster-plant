@@ -1,0 +1,91 @@
+
+
+
+body {
+ 
+ padding: 1em;
+
+}
+
+background {
+    color: blue;
+}
+
+
+#main-bar {
+    background: grey;
+    border: pink;
+    margin: 0;
+    padding: 0; 
+}
+
+.container-fluid {
+
+    column-gap: 0px;
+
+}
+
+h1 {
+
+    margin: .5em;
+    display: inline-block;
+
+}
+
+#splitin3 {
+    column-count: 3;
+}
+
+
+#my-menu {
+
+    float: right;
+    margin-right: 2em;
+    margin-top:.5em;
+
+}
+
+.row_height {
+    height:100vh;
+
+}
+
+.navbar-light {
+    background-color: pink;
+}
+
+.left{
+	overflow-y: scroll;
+	position:relative;
+    height: 600px;
+}
+
+.right{
+	overflow-y: scroll;
+	position:relative;
+    height: 600px;
+}
+
+
+.mid{
+  overflow-y: scroll;
+  position:relative;
+  height: 600px;
+
+}
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+* {
+  -ms-overflow-style: none !important;
+}
+
+
